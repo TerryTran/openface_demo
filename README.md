@@ -13,6 +13,7 @@
 >>>```python visualize```
 
 >>>```tensorboard --logdir=data/visuallize```
+4. Open browser with URL: http://localhost:6006 and see the visuallization.
 
 ### Create server classify other images:
 1. Create features:
