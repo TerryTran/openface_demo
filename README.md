@@ -10,7 +10,7 @@
 3. Align face, run within container
 >>>```for N in {1..4}; do /root/openface/util/align-dlib.py data/raw align outerEyesAndNose data/aligned --size 96 & done```
 3. Visualize data with Tensorboard:
->>>```python visualize```
+>>>```python visualize.py```
 
 >>>```tensorboard --logdir=data/visuallize```
 4. Open browser with URL: http://localhost:6006 and see the visuallization.
